@@ -1,0 +1,23 @@
+{
+    "name": "MercuriosUI",
+    "version": "1.0.0",
+    "description": "Interface usada para projetos internos da Mercurios Soluções",
+    "devDependencies": {},
+    "authors": [
+        "Tassiano Alencar <tassiano.alencar@icloud.com>",
+        "Mário Brandão <mariobrandaobr@hotmail.com>"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": ">=2.1",
+        "animate.css": "*",
+        "slick.js": "~1.5.5"
+    }
+}

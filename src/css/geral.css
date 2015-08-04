@@ -1,0 +1,454 @@
+/**
+ * ----------------------------------------
+ * Geral
+ * ----------------------------------------
+ */
+
+/**
+ * ----------------------------------------
+ * Textos
+ * ----------------------------------------
+ */
+
+body{
+    background: #EF8E7D;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h1,h2,h3,h4{
+    padding: 0.4em 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+h4{
+    font-size: 0.9em;
+}
+
+p{
+    line-height: 1.2em;
+    font-size: 1em;
+    padding: 0.8em 0;
+    float: left;
+    width: 100%;
+}
+
+/**
+ * --------------------
+ * Títulos Aumentados
+ * --------------------
+ */
+
+.larger{
+    font-weight: 100;
+    border-bottom: 1px dashed rgb(197, 197, 197);
+    margin: 0.2em 0;
+}
+
+h1.larger{
+    font-size: 5em;
+}
+
+h2.larger{
+    font-size: 4em;
+    padding: 0.2em 0;
+}
+
+h3.larger{
+    font-size: 3em;
+}
+
+h4.larger{
+    font-size: 2em;
+}
+
+h5.larger{
+    font-size: 1em;
+}
+
+header .larger{
+    border-bottom: none;
+}
+
+/**
+ * ----------------------------------------
+ * Barras de navegação
+ * ----------------------------------------
+ */
+
+[class*="outer-nav"]{
+    float: left;
+}
+
+.navbar{
+    text-align: center;
+    width: auto;
+}
+
+.navbar li{
+    list-style: none;
+    color: white;
+    padding: 2em 3%;
+    display: inline-block;
+}
+
+.bg-white .navbar li{
+    color: #525252;
+}
+
+.bg-white .navbar li a:hover{
+    color: #EF8E7D;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar a:visited, .navbar a:focus, .navbar a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.aside .navbar li{
+    float: none;
+    display: block;
+    padding: 1.2em 3%;
+}
+
+.aside .navbar li:hover{
+    background: rgba(241, 245, 245, 0.5);
+    color: #525252;
+}
+
+.aside .navbar li a:hover{
+    color: inherit;
+}
+
+.aside .navbar li:last-child{
+    border: none;
+}
+
+/**
+ * ----------------------------------------
+ * Cores - Planos de Fundo
+ * ----------------------------------------
+ */
+
+.black{
+    color: #525252;
+}
+
+.white{
+    color: white;
+}
+
+.red{
+    background: #EF8E7D;
+}
+
+.blue{
+    background: #518FB9;
+}
+
+.green{
+    background: #86BB6A;
+}
+
+.bg-black{
+    background: #525252;
+}
+
+.bg-white{
+    background: #FEFEFE;
+    color: #525252;
+}
+
+.bg-red{
+    background: #EF8E7D;
+}
+
+.bg-blue{
+    background: #518FB9;
+}
+
+.bg-green{
+    background: #86BB6A;
+}
+
+/**
+ * ----------------------------------------
+ * Bordas
+ * ----------------------------------------
+ */
+
+.border{
+    border: 1px solid #D0D0D0;
+}
+
+.border-t{
+    border-top: 1px solid #D0D0D0;
+}
+
+.border-r{
+    border-right: 1px solid #D0D0D0;
+}
+
+.border-b{
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.border-l{
+    border-left: 1px solid #D0D0D0;
+}
+
+/**
+ * -------------------
+ * Rounded = arredondado, Round = redondo.
+ * -------------------
+ */
+
+.rounded{
+    border-radius: 5px;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+
+/**
+ * ----------------------------------------
+ * Botões
+ * ----------------------------------------
+ */
+
+[class*="btn"]{
+    float: left;
+    cursor: pointer;
+    padding: 15px;
+    height: 20px;
+    margin: 0.5em 1%;
+    color: white;
+    text-decoration: none;
+    background: #3C8DC5;
+
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.10);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.10);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.10);
+
+    opacity: 1;
+
+    -webkit-transition: opacity .2s, box-shadow .8s, -webkit-box-shadow .8s, -moz-box-shadow .8s;
+    transition: opacity .2s, box-shadow .8s, -webkit-box-shadow .8s, -moz-box-shadow .8s;
+}
+
+[class*="btn"]:hover{
+    opacity: .8;
+
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+}
+
+.btn-success{
+    background: #6FB7E9;
+}
+
+.btn-black{
+    background: #525252;
+}
+
+.btn-white{
+    background: #FEFEFE;
+    color: #525252;
+}
+
+.btn-red{
+    background: #EF8E7D;
+}
+
+.btn-blue{
+    background: #6FB7E9;
+}
+
+.btn-green{
+    background: #19D0AC;
+}
+
+.btn-link{
+    color: #6FB7E9;
+    background: none;
+}
+
+
+/**
+ * ----------------------------------------
+ * Código
+ * ----------------------------------------
+ */
+
+pre{
+    float: left;
+    width: 94%;
+    max-height: 15em;
+    padding: 3%;
+    overflow: auto;
+    border: 1px dashed #525252;
+    text-align: left;
+    line-height: 1.6em;
+    color: #525252;
+    font-weight: lighter;
+    font-family: Arial, serif;
+    -webkit-box-shadow: inset 0px 0px 76px -19px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0px 0px 76px -19px rgba(0,0,0,0.25);
+    box-shadow: inset 0px 0px 76px -19px rgba(0,0,0,0.25);
+}
+
+
+/**
+ * ----------------------------------------
+ * Floating
+ * ----------------------------------------
+ */
+
+.float-l{
+    float: left;
+}
+
+.float-r{
+    float: right;
+}
+
+
+/**
+ * ----------------------------------------
+ * Alinhando
+ * ----------------------------------------
+ */
+
+.align-l{
+    text-align: left;
+}
+
+.align-r{
+    text-align: right;
+}
+
+
+/**
+ * ----------------------------------------
+ * Páginas
+ * ----------------------------------------
+ */
+
+
+/**
+ * -------------------
+ * Index
+ * -------------------
+ */
+
+.top{
+    padding: 0.5em 0;
+}
+
+.logo{
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.logo img{
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+.intro{
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    color: #FEF7E1;
+}
+
+.intro h1, .intro p{
+    text-shadow: 0 0 5px rgba(150, 150, 150, 1);
+}
+
+.intro p{
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: -30px;
+    text-transform: uppercase;
+}
+
+
+
+@media (max-width: 768px){
+
+    .aside .navbar li{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 640px){
+    .larger{
+        font-weight: 100;
+    }
+
+    h1.larger{
+        font-size: 3em;
+    }
+
+    h2.larger{
+        font-size: 2.5em;
+    }
+
+    h3.larger{
+        font-size: 2em;
+    }
+
+    h4.larger{
+        font-size: 1.5em;
+    }
+
+    h5.larger{
+        font-size: 1em;
+    }
+
+    /**
+     * ----------------------------------------
+     * Páginas
+     * ----------------------------------------
+     */
+
+
+    /**
+     * -------------------
+     * Index
+     * -------------------
+     */
+
+    .logo{
+        width: 45%;
+        margin: 0 27.5%;
+    }
+
+    .logo img{
+        width: 97%;
+    }
+}

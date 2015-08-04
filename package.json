@@ -1,0 +1,21 @@
+{
+  "name": "MercuriosUI",
+  "version": "1.0.0",
+  "description": "Interface usada para projetos internos da Mercurios Soluções",
+  "author": [
+    {
+      "Tassiano Alencar": "tassiano.alencar@icloud.com"
+    },
+    {
+      "Mário Brandão": "mariobrandaobr@hotmail.com"
+    }
+  ],
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-strip-css-comments": "^1.1.0",
+    "gulp-uglify": "*",
+    "gulp-watch": "^4.3.4"
+  }
+}

@@ -1,0 +1,78 @@
+/**
+ * ----------------------------------------
+ * Table
+ * ----------------------------------------
+ */
+
+table{
+    background: white;
+}
+
+thead, tbody{
+    width: 100%;
+    position: relative;
+}
+
+tr{
+    width: 100%;
+}
+
+th{
+    font-size: 1em;
+    font-weight: bold;
+    background: #EAEAEA;
+}
+
+th, td{
+    padding: 1em 5px;
+    border-left: 1px solid white;
+}
+
+th:first-child, td:first-child{
+    border-left: none;
+}
+
+
+/**
+ * ----------------------------------------
+ * Divided
+ * ----------------------------------------
+ */
+
+
+[class*="table-divided"] td{
+    border-left: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+
+[class*="table-divided"] td:first-child{
+    border-left: none;
+}
+
+
+/**
+ * ----------------------------------------
+ * Divided-v
+ * ----------------------------------------
+ */
+
+.table-divided-v td{
+    border-left: 1px solid #EAEAEA;
+    border-bottom: none;
+}
+
+.table-divided-v td:first-child{
+    border-left: none;
+}
+
+/**
+ * ----------------------------------------
+ * Divided-h
+ * ----------------------------------------
+ */
+
+.table-divided-h td{
+    border-bottom: 1px solid #EAEAEA;
+    border-left: none;
+}

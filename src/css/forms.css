@@ -1,0 +1,28 @@
+form, fieldset, label{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+label{
+    width: 96%;
+    padding: 2%;
+}
+
+input, textarea{
+    float: left;
+    width: 97.5%;
+    padding: 1%;
+    margin: 0 0 1em 0;
+    border-radius: 5px;
+    border: 1px solid #D0D0D0;
+    font-size: 1em;
+    color: #525252;
+    resize: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input:focus, input:active, textarea:focus, textarea:active{
+    outline: 0 none;
+    box-shadow: 0 0 2px blue;
+}
